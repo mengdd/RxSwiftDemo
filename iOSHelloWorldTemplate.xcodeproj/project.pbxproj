@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D7E4BB62967B20A00580B35 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D7E4BB52967B20A00580B35 /* RxSwift */; };
 		8DB7FA2F294A2A91005D6109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7FA2E294A2A91005D6109 /* AppDelegate.swift */; };
 		8DB7FA31294A2A91005D6109 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7FA30294A2A91005D6109 /* SceneDelegate.swift */; };
 		8DB7FA33294A2A91005D6109 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB7FA32294A2A91005D6109 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7E4BB62967B20A00580B35 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +139,9 @@
 			dependencies = (
 			);
 			name = iOSHelloWorldTemplate;
+			packageProductDependencies = (
+				8D7E4BB52967B20A00580B35 /* RxSwift */,
+			);
 			productName = iOSHelloWorldTemplate;
 			productReference = 8DB7FA2B294A2A91005D6109 /* iOSHelloWorldTemplate.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +214,9 @@
 				Base,
 			);
 			mainGroup = 8DB7FA22294A2A91005D6109;
+			packageReferences = (
+				8D7E4BB42967B20A00580B35 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 8DB7FA2C294A2A91005D6109 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -572,6 +580,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D7E4BB42967B20A00580B35 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D7E4BB52967B20A00580B35 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D7E4BB42967B20A00580B35 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DB7FA23294A2A91005D6109 /* Project object */;
 }
