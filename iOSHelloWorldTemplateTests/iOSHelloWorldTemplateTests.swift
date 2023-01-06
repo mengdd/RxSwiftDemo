@@ -5,8 +5,8 @@
 //  Created by Dandan Meng on 2022/12/15.
 //
 
-@testable import iOSHelloWorldTemplate
 import XCTest
+@testable import iOSHelloWorldTemplate
 
 final class iOSHelloWorldTemplateTests: XCTestCase {
     override func setUpWithError() throws {
